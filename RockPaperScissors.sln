@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.vcxproj", "{59E6641E-F086-4D1B-A8E8-00E3C4A14412}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestRockPaperScissors", "TestRockPaperScissors\TestRockPaperScissors.vcxproj", "{C4A00BE7-9BA3-D143-0264-2438CE8CE268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{59E6641E-F086-4D1B-A8E8-00E3C4A14412}.Release|x64.Build.0 = Release|x64
 		{59E6641E-F086-4D1B-A8E8-00E3C4A14412}.Release|x86.ActiveCfg = Release|Win32
 		{59E6641E-F086-4D1B-A8E8-00E3C4A14412}.Release|x86.Build.0 = Release|Win32
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Debug|x64.ActiveCfg = Debug|x64
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Debug|x64.Build.0 = Debug|x64
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Debug|x86.Build.0 = Debug|Win32
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Release|x64.ActiveCfg = Release|x64
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Release|x64.Build.0 = Release|x64
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Release|x86.ActiveCfg = Release|Win32
+		{C4A00BE7-9BA3-D143-0264-2438CE8CE268}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
