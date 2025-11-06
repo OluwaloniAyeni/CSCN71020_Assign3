@@ -45,5 +45,13 @@ namespace TestRockPaperScissors
 			const char* result = determineWinner(player1, player2);
 			Assert::AreEqual("Player2", result);
 		}
+		TEST_METHOD(Test_PaperLosesToScissors_Player2Wins)
+		{
+			char player1[] = "Paper";
+			char player2[] = "Scissors";
+
+			const char* result = determineWinner(player1, player2);
+			Assert::AreEqual("Player2", result);
+		}
 	};
 }
