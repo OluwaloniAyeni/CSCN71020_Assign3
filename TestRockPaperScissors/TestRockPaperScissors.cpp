@@ -69,5 +69,13 @@ namespace TestRockPaperScissors
 			const char* result = determineWinner(player1, player2);
 			Assert::AreEqual("Draw", result);
 		}
+		TEST_METHOD(Test_InvalidInput)
+		{
+			char player1[] = "rock";
+			char player2[] = "Paper";
+
+			const char* result = determineWinner(player1, player2);
+			Assert::AreEqual("Invalid", result);
+		}
 	};
 }
